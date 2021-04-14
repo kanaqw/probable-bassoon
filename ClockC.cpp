@@ -1,8 +1,8 @@
 struct Clockofthelongnow {
 	
-	bool set_year(int new_year) {
+	bool set_year(int year) {
 		if (year < 2019) return false;
-		year = new_year;
+		this->year = year;
 		return true;
 	}
 	int get_year() {
