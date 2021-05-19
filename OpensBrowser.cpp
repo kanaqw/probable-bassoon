@@ -4,7 +4,7 @@
 
 void SearchWeb()
 {
-	std::string base_URL = "https://www.youtube.com/watch?v=jFU3xBRZ8mc"//put your link in here;
+	std::string base_URL = "https://www.youtube.com/watch?v=jFU3xBRZ8mc";//put your link in here
 	std::string search_URL = "dummy";
 	search_URL = base_URL;
 
